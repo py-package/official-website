@@ -1,4 +1,4 @@
-name: Upload Python Package
+name: Upload Node Package
 
 on:
   release:
@@ -6,7 +6,6 @@ on:
 
 jobs:
   deploy:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,9 +14,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Checkout 🛎️
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
-    - name: Deploy 🚀
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: out # The folder the action should deploy.
