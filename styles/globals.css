@@ -1,9 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#__next,
+#layout,
+#page {
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -13,4 +24,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.prose img {
+  width: auto !important;
+  height: auto !important;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
