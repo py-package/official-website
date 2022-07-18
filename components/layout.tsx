@@ -1,3 +1,4 @@
+import { LayoutProps } from "../global";
 import Navbar from "./navbar";
 
 const Layout = (props: LayoutProps) => {
