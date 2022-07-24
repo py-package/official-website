@@ -23,7 +23,7 @@ const HomePage: NextPage = () => {
           You are welcome to contribute to the project that we created. You can either fork the project or create a pull request. Let us build a better future for Masonite. We are always looking for new features and improvements.
         </p>
 
-        <p className="text-center mt-4 mb-1 bg-yellow-200 rounded-md shadow-lg px-2 py-4 w-full">
+        <p className="text-center mt-4 mb-1 bg-warning text-white rounded-md shadow-lg px-2 py-4 w-full">
           There are lots of features coming soon here in PyPackage. Stay tuned.<br />For now, you can check out the <Link href="/packages"><a className='text-red-600 font-bold'>Packages</a></Link> we have created.
         </p>
 

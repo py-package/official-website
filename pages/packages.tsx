@@ -60,11 +60,13 @@ const PackagesPage: NextPage = () => {
         <p className="text-center mb-8">Followings are some packages published and are ready to use. There are more packages coming on the way. Enjoy using the framework <a href="https://docs.masoniteproject.com/" rel='noreferrer' target="_blank" className="text-red-600 font-semibold">Masonite<sup>4.0</sup></a></p>
         <section className='grid gap-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 w-full mt-4'>
           {packages.map(({ name, description, url, image }, i) => (
-            <div key={i} className='prose relative overflow-hidden shadow-md rounded-md border-yellow-400 p-2 border-2'>
-              <a className='no-underline' href={url}>
-                <h2 className='py-0 my-0 mb-2 text-center'>{name}</h2>
-                <p className='py-0 my-0 -mt-3 text-xs text-gray-400 text-center'>{description}</p>
-                <img alt={name} className='w-full' src={image} />
+            <div className="card glass" key={i}>
+              <a href={url} className="card-content no-underline">
+                <figure><img alt={name} src={image} /></figure>
+                <div className="card-body p-4">
+                  <h2 className="card-title">{name}</h2>
+                  <p>{description}</p>
+                </div>
               </a>
             </div>
           ))}
