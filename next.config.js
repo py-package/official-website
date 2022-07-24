@@ -6,7 +6,7 @@ const nextConfig = {
     loader: 'akamai',
     path: ''
   },
-  // assetPrefix: 'https://pypackage.com/'
+  assetPrefix: 'https://pypackage.com/'
 }
 
 module.exports = nextConfig
