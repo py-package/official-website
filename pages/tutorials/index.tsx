@@ -6,7 +6,7 @@ import axios from 'axios';
 import getConfig from 'next/config'
 
 type Props = {
-  packages: [];
+  tutorials: [];
 };
 
 const TutorialsPage = (props: Props) => {
@@ -20,9 +20,9 @@ const TutorialsPage = (props: Props) => {
         <h1 className='text-3xl font-bold text-center mt-12'>Tutorials</h1>
         <p className="text-center mb-8"></p>
         <section className='grid gap-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 w-full mt-4'>
-          {props.packages.map(({ name, description, url, image }, i) => (
+          {props.tutorials.map(({ name, description, path, image }, i) => (
             <div className="card glass" key={i}>
-              <a href={url} className="card-content no-underline">
+              <a href={path} className="card-content no-underline">
                 <figure><img alt={name} src={image} /></figure>
                 <div className="card-body p-4">
                   <h2 className="card-title">{name}</h2>
@@ -39,11 +39,11 @@ const TutorialsPage = (props: Props) => {
 
 export async function getStaticProps() {
   const { serverRuntimeConfig } = getConfig()
-  const response = await axios.get(`${serverRuntimeConfig.base}/api/packages`);
-  const packages = response.data.packages;
+  const response = await axios.get(`${serverRuntimeConfig.base}/api/tutorials`);
+  const tutorials = response.data.tutorials;
   return {
     props: {
-      packages
+      tutorials
     }
   }
 }
