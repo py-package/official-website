@@ -13,14 +13,16 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   const filePath = path.join(process.cwd(), "data/packages.json");
-  fsPromises
-    .readFile(filePath)
-    .then((value) => {
-      res.status(200).json(JSON.parse(value as any));
-    })
-    .catch((_) => {
-      res.status(422).json({
-        message: "Unable to process data",
+  return new Promise<void>(async (resolve) => {
+    fsPromises
+      .readFile(filePath)
+      .then((value) => {
+        res.send(JSON.parse(value as any));
+        return resolve();
+      })
+      .catch((_) => {
+        res.status(422).end();
+        return resolve();
       });
-    });
+  });
 }

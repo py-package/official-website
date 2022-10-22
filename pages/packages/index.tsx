@@ -13,7 +13,7 @@ const PackagesPage = (props: Props) => {
   return (
     <Page>
       <Head>
-        <title>PyPackage 0.0.1 - Packages</title>
+        <title>PyPackage 0.0.2 - Packages</title>
       </Head>
       <main className='md:px-32 px-16 pt-4'>
         <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0660597578690897" crossOrigin="anonymous"></Script>

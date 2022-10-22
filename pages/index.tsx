@@ -9,7 +9,7 @@ const HomePage: NextPage = () => {
   return (
     <Page>
       <Head>
-        <title>PyPackage 0.0.1</title>
+        <title>PyPackage 0.0.2</title>
       </Head>
       <main className='md:px-32 px-16 h-full md:w-[1200px] mx-auto flex flex-col items-center'>
         <img src="/pypackage-logo.png" className="w-[320px] mx-auto -mt-12 -mb-12" />

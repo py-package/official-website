@@ -9,11 +9,11 @@ const nextConfig = {
   },
   assetPrefix: dev ? 'http://localhost:3000/' : 'https://pypackage.com/',
   serverRuntimeConfig: {
-    base: dev ? 'http://localhost:3000' : 'https://pypackage.com'
+    base: 'http://localhost:3000'
   },
   publicRuntimeConfig: {
     // Will be available on both server and client
-    staticFolder: '/static',
+    // staticFolder: '/static',
   },
 }
 
