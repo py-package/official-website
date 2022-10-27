@@ -22,9 +22,9 @@ jobs:
       - name: Create .env file
         uses: ozaytsev86/create-env-file@v1
         with:
-          NEXT_PUBLIC_DISQUS_SHORTNAME: ${{ secrets.NEXT_PUBLIC_DISQUS_SHORTNAME }}
-          BUTTONDOWN_API_URL: ${{ secrets.BUTTONDOWN_API_URL }}
-          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          ENV_NEXT_PUBLIC_DISQUS_SHORTNAME: ${{ secrets.NEXT_PUBLIC_DISQUS_SHORTNAME }}
+          ENV_BUTTONDOWN_API_URL: ${{ secrets.BUTTONDOWN_API_URL }}
+          ENV_BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
