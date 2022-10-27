@@ -1,3 +1,5 @@
+const dev = process.env.NODE_ENV !== 'production'
+
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
@@ -66,6 +68,11 @@ module.exports = withBundleAnalyzer({
       },
     ]
   },
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  assetPrefix: dev ? 'http://localhost:3000/' : 'https://pypackage.com/',
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
       test: /\.svg$/,
