@@ -6,8 +6,6 @@ draft: false
 summary: Associate users with roles and permissions.
 ---
 
-# Masonite Permission
-
 <p align="center">
     <img src="https://banners.beyondco.de/Masonite%20Permission.png?theme=light&packageManager=pip+install&packageName=masonite-permission&pattern=charlieBrown&style=style_2&description=Associate+users+with+roles+and+permissions.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>
@@ -317,7 +315,7 @@ Checking if user has all of the roles
 ```
 
 **In case of Permissions**
-Checking if user can do {permission}.
+Checking if user can do \{permission\}.
 
 ```jinja2
 {% if user.can_("edit-post") %}
@@ -325,7 +323,7 @@ Checking if user can do {permission}.
 {% endif %}
 ```
 
-Checking if user can do any one or more of the {permissions}
+Checking if user can do any one or more of the \{permissions\}
 
 ```jinja2
 {% if user.can_("edit-post|delete-post") %}
@@ -333,7 +331,7 @@ Checking if user can do any one or more of the {permissions}
 {% endif %}
 ```
 
-Checking if user can do all of the {permissions}
+Checking if user can do all of the \{permissions\}
 
 ```jinja2
 {% if user.can_("edit-post,delete-post") %}

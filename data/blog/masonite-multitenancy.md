@@ -3,7 +3,7 @@ title: Masonite Multitenancy
 date: '2022-07-17'
 tags: ['masonite', 'multitenant', 'python']
 draft: false
-summary: Multitenancy package for Masonite!
+summary: Multitenancy is a feature that allows you to have multiple tenants in your application. This is useful for things like a company having multiple websites, or a company having multiple apps.
 ---
 
 <p align="center">

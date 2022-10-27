@@ -10,10 +10,6 @@ summary: Backup Solution for Masonite
   <img src="https://banners.beyondco.de/Masonite%20Backup.png?theme=light&packageManager=pip+install&packageName=masonite-backup&pattern=charlieBrown&style=style_2&description=Backup+solution+for+Masonite+Apps.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>
 
-# Masonite Backup (WIP)
-
-Backup solution for Masonite.
-
 ### Features
 
 - [x] Backup Database

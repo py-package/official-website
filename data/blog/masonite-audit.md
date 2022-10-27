@@ -6,15 +6,9 @@ draft: false
 summary: Keep track of all your model changes with ease.
 ---
 
-# Masonite Audit
-
 <p align="center">
     <img src="https://banners.beyondco.de/Masonite%20Audit.png?theme=light&packageManager=pip+install&packageName=masonite-audit&pattern=charlieBrown&style=style_2&description=Keep+track+of+all+your+model+changes+with+ease.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>
-
-## Introduction
-
-Keep track of all your model changes with ease.
 
 ## Getting Started
 

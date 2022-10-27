@@ -6,8 +6,6 @@ draft: false
 summary: Full-fledge e-commerce solution in masonite [WIP]
 ---
 
-# Masonite Commerce
-
 <p align="center">
   <img src="https://banners.beyondco.de/Masonite Commerce.png?theme=light&packageManager=pip+install&packageName=masonite-commerce&pattern=charlieBrown&style=style_2&description=Full-fledge+e-commerce+solution+in+Masonite+Framework.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>

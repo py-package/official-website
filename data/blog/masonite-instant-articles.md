@@ -6,8 +6,6 @@ draft: false
 summary: This helps you generate facebooks instant articles and also regular feeds with enough customizations you might need.
 ---
 
-# Instant Articles
-
 <p align="center">
     <img src="https://banners.beyondco.de/Masonite%20Instant%20Article.png?theme=light&packageManager=pip+install&packageName=masonite-instant-article&pattern=charlieBrown&style=style_2&description=generate%20facebooks%20instant%20articles%20and%20feeds.&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>

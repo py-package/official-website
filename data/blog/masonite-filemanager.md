@@ -6,8 +6,6 @@ draft: false
 summary: A simple yet powerful file management solution for your masonite application.
 ---
 
-# filemanager
-
 <p align="center">
 <img src="https://banners.beyondco.de/Masonite%20Filemanager.png?theme=light&packageManager=pip+install&packageName=masonite-filemanager&pattern=charlieBrown&style=style_2&description=File+management+solution+for+Masonite&md=1&showWatermark=1&fontSize=100px&images=adjustments&widths=50&heights=50" />
 </p>
