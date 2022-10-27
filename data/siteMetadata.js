@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'PyPackage',
   author: 'Yubaraj Shrestha',
   headerTitle: 'PyPackage',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'PyPackage, the organization to create open-source python projects.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://pypackage.com',

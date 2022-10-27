@@ -1,16 +1,16 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Yubaraj Shrestha
+avatar: /static/images/avatar.jpg
+occupation: Python Engineer
+company:
+email: yubaraj@pypackage.com
+twitter: https://twitter.com/meyubaraj
+linkedin: https://www.linkedin.com/in/meyubaraj
+github: https://github.com/yubarajshrestha
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Hi, I am Yubaraj Shrestha, creator of `PyPackage`. I am working as a **Senior Python Engineer** at Turing. I love contributing in open source projects. And right now `Masonite Framework` is one of the interested projects I am contributing on.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Talking about this platform, [PyPackage](https://github.com/py-package) is an open-source platform which creates lots of great open source projects. Right now most projects are created in `Python`. If you are someone who loves to contribute to python community then let's work together to create better softwares for the community.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Talking about the framework, Masonite is a Python framework. It is very easy to use and easy to learn. And it is shipped with a lot of great features. Because of its easy learning curve and features, it will be a great framework for Python developers. There are lots of improvements going on and soon it will be a full-fledged framework. There are lots of projects being created using Masonite. For more details about Masonite, please visit [Masonite](https://docs.masoniteproject.com/)
