@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pypackage.com/about</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-audit</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-backup</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-commerce</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-filemanager</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-instant-articles</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-localization</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-modules</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-multitenancy</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-permission</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/blog/masonite-sentry</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/acl</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/articles</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/audit</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/backup</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/commerce</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/ecommerce</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/filemanager</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/instant</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/instant-articles</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/localization</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/masonite</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/modules</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/multi-language</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/multitenant</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/permission</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/python</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/sentry</loc>
+  </url>
+</urlset>

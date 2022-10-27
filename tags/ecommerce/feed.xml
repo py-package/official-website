@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>PyPackage</title>
+      <link>https://pypackage.com/blog</link>
+      <description>PyPackage, the organization to create open-source python projects.</description>
+      <language>en-us</language>
+      <managingEditor>info@pypackage.com (Yubaraj Shrestha)</managingEditor>
+      <webMaster>info@pypackage.com (Yubaraj Shrestha)</webMaster>
+      <lastBuildDate>Sun, 21 Aug 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://pypackage.com/tags/ecommerce/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://pypackage.com/blog/masonite-commerce</guid>
+    <title>Masonite Commerce</title>
+    <link>https://pypackage.com/blog/masonite-commerce</link>
+    <description>Full-fledge e-commerce solution in masonite [WIP]</description>
+    <pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
+    <author>info@pypackage.com (Yubaraj Shrestha)</author>
+    <category>masonite</category><category>ecommerce</category><category>commerce</category><category>python</category>
+  </item>
+
+    </channel>
+  </rss>
