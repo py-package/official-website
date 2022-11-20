@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>info@pypackage.com (Yubaraj Shrestha)</managingEditor>
       <webMaster>info@pypackage.com (Yubaraj Shrestha)</webMaster>
-      <lastBuildDate>Tue, 25 Oct 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 20 Nov 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://pypackage.com/tags/masonite/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://pypackage.com/blog/sending-mail-in-masonite</guid>
+    <title>Sending Mail in Masonite Framework</title>
+    <link>https://pypackage.com/blog/sending-mail-in-masonite</link>
+    <description>Masonite ships with built in mail feature. Hence, we can easily send emails without too many hassles.</description>
+    <pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate>
+    <author>info@pypackage.com (Yubaraj Shrestha)</author>
+    <category>masonite</category><category>mail</category><category>python</category>
+  </item>
+
   <item>
     <guid>https://pypackage.com/blog/masonite-filemanager</guid>
     <title>Masonite Filemanager</title>

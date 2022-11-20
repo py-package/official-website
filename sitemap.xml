@@ -61,6 +61,10 @@
   </url>
 
   <url>
+    <loc>https://pypackage.com/blog/sending-mail-in-masonite</loc>
+  </url>
+
+  <url>
     <loc>https://pypackage.com/tags/acl</loc>
   </url>
 
@@ -98,6 +102,10 @@
 
   <url>
     <loc>https://pypackage.com/tags/localization</loc>
+  </url>
+
+  <url>
+    <loc>https://pypackage.com/tags/mail</loc>
   </url>
 
   <url>

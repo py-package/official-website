@@ -1,0 +1,1 @@
+{"pageProps":{"posts":[{"title":"Sending Mail in Masonite Framework","date":"2022-11-20T00:00:00.000Z","tags":["masonite","mail","python"],"draft":false,"summary":"Masonite ships with built in mail feature. Hence, we can easily send emails without too many hassles.","slug":"sending-mail-in-masonite"}],"tag":"mail"},"__N_SSG":true}
