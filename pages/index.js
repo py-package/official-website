@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         now most projects are created in `Python`. If you are someone who loves to contribute to
         python community then let's work together to create better softwares for the community.
       </p>
-      <p className="mt-4 text-center">
+      {/* <p className="mt-4 text-center">
         Talking about the framework, Masonite is a Python framework. It is very easy to use and easy
         to learn. And it is shipped with a lot of great features. Because of its easy learning curve
         and features, it will be a great framework for Python developers. There are lots of
@@ -33,7 +33,7 @@ export default function Home({ posts }) {
         <a href="https://docs.masoniteproject.com/" target="_blank" rel="noreferrer">
           Masonite
         </a>
-      </p>
+      </p> */}
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:leading-14">
